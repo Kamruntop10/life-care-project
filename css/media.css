@@ -1,0 +1,194 @@
+@media (max-width: 1399px){
+
+}
+
+/*=====================================xl-end=======================================*/
+
+@media (max-width: 1199px){
+    .carousel-caption p {
+        
+        font-size: 15px;
+       
+    }
+    .carousel-caption h1 {
+        font-size: 46px;
+        line-height: 67px;
+    }
+    .service-content p, .doctor-title p {
+        font-size: 15px;
+        
+    }
+    .card-title {
+        font-size: 22px;
+      
+    }
+    .card-body p {
+        font-size: 14px;
+ 
+    }
+    .card-body a {
+           font-size: 13px;
+    }
+}
+/*=====================================lg-end=======================================*/
+
+
+@media (max-width: 991px){
+    .info-box p {
+      font-size: 13px;
+    }
+    .navbar-nav {
+      
+        flex-direction: row;
+        justify-content: center;
+    }
+    .top-header-section {
+        padding: 10px 0;
+    }
+    .carousel-caption h1 {
+        font-size: 41px;
+        line-height: 55px;
+    }
+    .carousel-caption {
+        padding-top: 0rem;
+    }
+    .carousel-caption p {
+        font-size: 13px !important;
+        line-height: 22px;
+        padding-top: 18px;
+    }
+    .hero-banner-section {
+        height: 600px;
+    }
+    .carousel-indicators {
+        margin-bottom: 2rem;
+    }
+    .nav-item .custom-btn {
+        background: transparent;
+    
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 9px;
+        
+        padding: 6px 15px;
+        margin-left: -5px;
+        
+    }
+
+    .service-content h3, .doctor-title h3 {
+        padding-bottom: 0px;
+}
+.service-content h3, .doctor-title h3 {
+    line-height: 54px;;
+}
+.card-title {
+    font-size: 25px!important;
+    line-height: 27px;
+    padding-top: 0;
+}
+.card-body p {
+    padding-bottom: 6px;
+}
+.rectengle {
+    margin-bottom: 30px;
+}
+}
+/*=======================================md-emd=====================================*/
+
+
+@media (max-width: 767px){
+
+    .navbar-nav {
+        flex-direction: column !important;
+        align-items: self-start;
+    }
+    .carousel-caption h1 {
+        font-size: 38px;
+        line-height: 52px;
+    }
+    .hero-banner-section {
+        height: 500px;
+    }
+    .service-content p, .doctor-title p {
+        font-size: 14px;
+    }
+    .services img {
+        padding: 13px 32px 15px 32px;
+    }
+    .services p {
+        padding-bottom: 6px;
+        margin-bottom: 0;
+    }
+    .services {
+        margin-bottom: 35px;
+    }
+    .doctor-card img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .navbar-light .navbar-toggler-icon {
+        
+        filter: invert(1);
+        opacity: 1;
+    }
+}
+/*========================================sm-end====================================*/
+
+
+@media (max-width: 575px){
+
+    .info-box {
+        justify-content: center;
+        flex-direction: column;
+    }
+    .info-box p {
+        font-size: 10px;
+    }
+    .info-box br{
+        display: none;
+    }
+
+    .navbar-brand img{
+        width: 50px;
+    }
+    .navbar-toggler-icon {
+        width: 1.2em;
+        height: 2.2em;
+    }
+    .navbar-toggler {
+        padding: .25rem 0.25rem;
+    }
+    .btn-reverse {
+        margin-bottom: 20px;
+        margin-top: 50px;
+    }
+    .hero-banner-section {
+        height: 400px;
+    }
+    .service-content h3, .doctor-title h3 {
+        font-size: 30px;
+        margin-bottom: 0;
+}
+.service-content p, .doctor-title p {
+    font-size: 12.5px;
+    line-height: 18px;
+}
+.card-title {
+    font-size: 22px!important;
+}
+.doctor-btn {
+    padding: 10px 13px;
+}
+.services img {
+    display: block;
+    margin: auto;
+}
+
+}
+
+/***************************************************************/
+@media (max-width: 300px){
+    .info-box p {
+        font-size: 10px;
+    }
+}
